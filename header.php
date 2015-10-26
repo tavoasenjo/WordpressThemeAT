@@ -15,7 +15,6 @@
 
 
 <body <?php body_class(); ?>>
-
 <header>
   <div class="container">
     <h1>
