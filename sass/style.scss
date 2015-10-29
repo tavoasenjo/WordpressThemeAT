@@ -25,7 +25,7 @@ img {
 
 body {
 	color: #333;
-	background: green;
+	background: lightblue;
 }
 
 .container {
@@ -42,6 +42,22 @@ body {
 .full {
 	width: 100%;
 }
+
+nav{
+	position: fixed;
+	width: 100%;
+	background: black;
+	
+	ul {
+		display: flex;
+		justify-content: flex-end;
+		li a{
+			background: red;
+			display: block;
+		}
+	}
+}
+
 
 
 
